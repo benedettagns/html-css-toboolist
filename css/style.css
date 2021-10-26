@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: white;
+    font-size: 35px;
+    font-weight: 600;
+    padding: 12px;
+}
+
+main {
+    background-color: whitesmoke;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.button1 {
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(13, 198, 255);
+}
+
+.button2 {
+    padding: 8px;
+    border-radius: 8px;
+    color: grey;
+    background-color: whitesmoke;
+}
+
+.add {
+    border: 10px white solid;
+    border-radius: 2px;
+    background-color: white;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+.text {
+    border: 1px white solid;
+    border-radius: 2px;
+    background-color: white;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 25px;
+    line-height: 30px;
+}
+.linea{
+    display: inline-block;
+}
+
+
+/* span vari */
+.Editorial {
+    border-radius: 12px;
+    background-color: rgb(71, 181, 255);
+    padding: 6px;
+    color: white;
+    font-size: 12px;
+}
+
+.goal {
+    border-radius: 12px;
+    background-color: rgb(154, 0, 214);
+    padding: 6px;
+    color: white;
+    font-size: 12px;
+}
+
+.Recru {
+    border-radius: 12px;
+    background-color: rgb(101, 192, 136);
+    padding: 6px;
+    color: white;
+    font-size: 12px; 
+}
+.Mobile {
+    border-radius: 12px;
+    background-color: rgb(255, 115, 0);
+    padding: 6px;
+    color: white;
+    font-size: 12px; 
+}
+.website {
+    border-radius: 12px;
+    background-color: rgb(228, 47, 182);
+    padding: 6px;
+    color: white;
+    font-size: 12px; 
+}
+.Sales {
+    border-radius: 12px;
+    background-color: rgb(152, 197, 48);
+    padding: 6px;
+    color: white;
+    font-size: 12px; 
+}
+
+.check {
+    color: green;
+    border: 1px green solid;
+    border-radius: 50%;
+    padding: 2px;
+    font-size: 10px;
+}
