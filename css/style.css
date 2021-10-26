@@ -10,6 +10,7 @@ header {
     font-size: 35px;
     font-weight: 600;
     padding: 12px;
+    border: 2px white solid; 
 }
 
 main {
@@ -35,23 +36,18 @@ ul{
 }
 
 .add {
-    border: 10px white solid;
-    border-radius: 2px;
+    border: 2px white solid;
     background-color: white;
     width: 500px;
-    margin-top: 50px;
-    margin-left: 25px;
 }
 
 .text {
-    border: 1px white solid;
-    border-radius: 2px;
+    border: 2px white solid;
     background-color: white;
     width: 500px;
-    margin-top: 50px;
-    margin-left: 25px;
     line-height: 30px;
 }
+
 .linea{
     display: inline-block;
 }
@@ -109,4 +105,12 @@ ul{
     border-radius: 50%;
     padding: 2px;
     font-size: 10px;
+}
+
+.red {
+    color: red; 
+    border: 1px red solid;
+    border-radius: 50%;
+    padding: 2px;
+    font-size: 12px;
 }
